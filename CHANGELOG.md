@@ -4,6 +4,29 @@
 
 ---
 
+## v0.2.5 — 2026-06-29
+
+### Day 3 数据补充与奶量结构升级
+
+- 升级 `data/milk.csv` 表头，从 `date,day,time,amount_ml,pee,poop,notes` 调整为 `date,day,time,amount_ml,pee,poop,after_status,notes`。
+- 新增 `after_status` 字段，用于记录喝完后的状态，如 `relaxed`、`seeking_milk`、`fast_finished`、`sleepy`、`unknown`。
+- 补充 Day 3 中午、下午和晚间喂奶记录。
+- 更新 `data/health.csv`，补充 Day 3 喂奶、排尿和精神状态摘要。
+- 更新 `diary/DIARY.md`，补充 Day 3 的奶量、地点变化和喝奶速度观察。
+- 更新 `LORE.md`，补充“工作日在公司、周末回家”的照顾节奏。
+- 更新 `PROJECT_BIBLE.md` 与 `prompts/codex.md`，同步新的 `milk.csv` 字段规范。
+
+### 已记录的重要时刻
+
+- Day 3：13:00 左右喝奶约 7ml。
+- Day 3：16:00 喝奶约 20ml，随后排尿。
+- Day 3：20:00 喝奶约 15ml，随后排尿。
+- Day 3：20:10 因再次叫饿，补奶约 10ml。
+- Day 3：后几顿奶喝得很快，基本 1～2 分钟喝完。
+- Day 3：妈妈又把小十一带回公司，后续可能主要在公司照顾，周末回家。
+
+---
+
 ## v0.2.4 — 2026-06-29
 
 ### Day 2 / Day 3 记录补充
