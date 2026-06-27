@@ -4,6 +4,19 @@
 
 ---
 
+## v0.2.3 — 2026-06-28
+
+### Project Bible 同步
+
+- 将 `PROJECT_BIBLE.md` 同步到当前仓库结构。
+- 补充 `LORE.md`、`ACHIEVEMENTS.md`、`MEDICAL.md`、`photos/README.md`、`letters/README.md` 的职责说明。
+- 同步北京时间（UTC+8）与 Day 自动计算规则。
+- 同步 `data/milk.csv` 当前字段：`date,day,time,amount_ml,pee,poop,notes`。
+- 明确体重、奶量和排泄可实时更新，日记在妈妈要求“更新今天日记”时汇总。
+- 补充 Day 2 已知事实：饭后称重 321g。
+
+---
+
 ## v0.2.2 — 2026-06-28
 
 ### 时间规则
