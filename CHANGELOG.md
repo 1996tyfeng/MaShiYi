@@ -4,6 +4,17 @@
 
 ---
 
+## v0.2.1 — 2026-06-28
+
+### 数据结构升级
+
+- 升级 `data/milk.csv` 表头，从 `date,day,time,amount_ml,notes` 调整为 `date,day,time,amount_ml,pee,poop,notes`。
+- 将每顿喂奶后的排尿、排便情况与该顿奶量关联记录。
+- 对已有 Day 0 与 Day 1 喂奶记录补充 `pee` / `poop` 字段。
+- 未明确记录的排泄情况使用 `unknown`，避免补写不确定数据。
+
+---
+
 ## v0.2.0 — 2026-06-27
 
 ### 架构升级
