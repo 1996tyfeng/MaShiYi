@@ -114,8 +114,16 @@ date,day,weight_g,measurement_time,notes
 推荐字段：
 
 ```csv
-date,day,time,amount_ml,pee,poop,notes
+date,day,time,amount_ml,pee,poop,after_status,notes
 ```
+
+`after_status` 用于记录喝完后的状态，例如：
+
+- `unknown`：未记录；
+- `relaxed`：放松、安静、舔手、准备睡觉；
+- `seeking_milk`：喝完后仍明显找奶；
+- `fast_finished`：喝得很快，短时间内喝完；
+- `sleepy`：喝完后困倦或睡着。
 
 ### 6.3 health.csv
 
