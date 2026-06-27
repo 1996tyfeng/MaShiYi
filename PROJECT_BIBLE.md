@@ -107,7 +107,7 @@ MaShiYi/
 │   └── MEDICAL.md         # 医疗、疫苗、驱虫与健康观察
 ├── data/
 │   ├── weight.csv         # 体重记录
-│   ├── milk.csv           # 奶量与喂奶后排泄记录
+│   ├── milk.csv           # 奶量、喂奶后排泄与喝完状态记录
 │   └── health.csv         # 每日健康摘要
 ├── photos/
 │   └── README.md          # 照片与视频索引
@@ -295,7 +295,7 @@ date,day,weight_g,measurement_time,notes
 字段：
 
 ```csv
-date,day,time,amount_ml,pee,poop,notes
+date,day,time,amount_ml,pee,poop,after_status,notes
 ```
 
 说明：
@@ -306,9 +306,10 @@ date,day,time,amount_ml,pee,poop,notes
 - `amount_ml`：奶量，单位 ml；
 - `pee`：该顿奶后是否排尿，推荐值 `yes` / `no` / `unknown`；
 - `poop`：该顿奶后是否排便，推荐值 `yes` / `no` / `unknown`；
+- `after_status`：喝完后的状态，如 `unknown`、`relaxed`、`seeking_milk`、`fast_finished`、`sleepy`；
 - `notes`：备注。
 
-奶猫阶段每顿记录比只记总量更有价值。
+奶猫阶段每顿记录比只记总量更有价值。`after_status` 用于记录喝完后的即时状态，帮助未来判断喂养节奏。
 
 ### 9.3 health.csv
 
@@ -612,13 +613,18 @@ Codex 不应主动改写成长日记文风。
 - Day 1 总奶量约 50ml；
 - Day 1 排尿正常，暂未排便；
 - Day 2 饭后称重 321g；
+- Day 2 晚上从公司回家途中，在航空箱里自主排尿；
+- Day 3 叫声明显减少，经常打呼噜；
+- Day 3 总奶量目前约 81～82ml；
+- Day 3 后几顿喝奶速度变快，约 1～2 分钟喝完；
 - 小十一明显依恋妈妈气味；
 - 喜欢灰色绒斗篷；
 - 曾在妈妈腿上踩奶睡着；
 - 曾主动爬到妈妈头边睡觉；
 - 会疯狂吸妈妈手表达还想吃奶；
 - 补奶后会舔妈妈手，状态放松；
-- 会嘬毛毯进行自我安抚。
+- 会嘬毛毯进行自我安抚；
+- 奶猫期可能形成“工作日在公司、周末回家”的照顾节奏。
 
 ---
 
