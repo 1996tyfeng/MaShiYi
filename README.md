@@ -37,17 +37,36 @@
 MaShiYi/
 ├── README.md              # 项目首页
 ├── PROJECT_BIBLE.md       # 项目规范与长期维护原则
+├── LORE.md                # 马十一背景档案
 ├── CHANGELOG.md           # 更新记录
 ├── diary/
-│   └── DIARY.md           # 成长日记主文件
+│   ├── DIARY.md           # 成长日记主文件
+│   ├── ACHIEVEMENTS.md    # 成就与“第一次”档案
+│   └── MEDICAL.md         # 医疗、疫苗、驱虫与健康观察
 ├── data/
 │   ├── weight.csv         # 体重记录
 │   ├── milk.csv           # 奶量记录
 │   └── health.csv         # 健康与排泄记录
+├── photos/
+│   └── README.md          # 照片与视频索引
+├── letters/
+│   └── README.md          # 妈妈写给小十一的信
 └── prompts/
     ├── chatgpt.md         # ChatGPT 协作规范
     └── codex.md           # Codex 协作规范
 ```
+
+---
+
+## 文档分工
+
+- `PROJECT_BIBLE.md`：项目规则，尽量稳定，不频繁改动。
+- `LORE.md`：马十一的背景、名字由来、性格与生活设定，可随成长持续补充。
+- `diary/DIARY.md`：每日成长记录主线。
+- `diary/ACHIEVEMENTS.md`：记录重要“第一次”。
+- `diary/MEDICAL.md`：记录医疗、健康与护理相关信息。
+- `photos/README.md`：记录照片和视频索引。
+- `letters/README.md`：保存妈妈写给小十一的信。
 
 ---
 
