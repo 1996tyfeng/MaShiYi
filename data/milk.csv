@@ -21,3 +21,8 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-06-30,4,19:00,15,unknown,unknown,unknown,"19点多喂奶约15ml"
 2026-06-30,4,21:30,15,unknown,unknown,unknown,"21:30补奶约15ml"
 2026-07-01,5,04:00,20,unknown,unknown,unknown,"凌晨4点喂奶约20ml"
+2026-07-01,5,08:00,15,unknown,unknown,unknown,"早上8点喂奶约15ml"
+2026-07-01,5,12:00,20,unknown,yes,unknown,"中午12点喂奶约20ml；12点多自主排便，一小条，有一点点软，但比上次成型"
+2026-07-01,5,16:00,5,unknown,unknown,unknown,"下午4点喂奶约5ml"
+2026-07-01,5,16:45,15,unknown,unknown,unknown,"下午4点45喂奶约15ml"
+2026-07-01,5,19:30,15,unknown,unknown,unknown,"晚上19点半喂奶约15ml"
