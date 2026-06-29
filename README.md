@@ -35,25 +35,26 @@
 
 ```text
 MaShiYi/
-├── README.md              # 项目首页
-├── PROJECT_BIBLE.md       # 项目规范与长期维护原则
-├── LORE.md                # 马十一背景档案
-├── CHANGELOG.md           # 更新记录
+├── README.md                 # 项目首页
+├── PROJECT_BIBLE.md          # 项目规范与长期维护原则
+├── OBSERVATION_PROTOCOL.md   # 成长观察与风险提醒协议
+├── LORE.md                   # 马十一背景档案
+├── CHANGELOG.md              # 更新记录
 ├── diary/
-│   ├── DIARY.md           # 成长日记主文件
-│   ├── ACHIEVEMENTS.md    # 成就与“第一次”档案
-│   └── MEDICAL.md         # 医疗、疫苗、驱虫与健康观察
+│   ├── DIARY.md              # 成长日记主文件
+│   ├── ACHIEVEMENTS.md       # 成就与“第一次”档案
+│   └── MEDICAL.md            # 医疗、疫苗、驱虫与健康观察
 ├── data/
-│   ├── weight.csv         # 体重记录
-│   ├── milk.csv           # 奶量记录
-│   └── health.csv         # 健康与排泄记录
+│   ├── weight.csv            # 体重记录
+│   ├── milk.csv              # 奶量记录
+│   └── health.csv            # 健康与排泄记录
 ├── photos/
-│   └── README.md          # 照片与视频索引
+│   └── README.md             # 照片与视频索引
 ├── letters/
-│   └── README.md          # 妈妈写给小十一的信
+│   └── README.md             # 妈妈写给小十一的信
 └── prompts/
-    ├── chatgpt.md         # ChatGPT 协作规范
-    └── codex.md           # Codex 协作规范
+    ├── chatgpt.md            # ChatGPT 协作规范
+    └── codex.md              # Codex 协作规范
 ```
 
 ---
@@ -61,6 +62,7 @@ MaShiYi/
 ## 文档分工
 
 - `PROJECT_BIBLE.md`：项目规则，尽量稳定，不频繁改动。
+- `OBSERVATION_PROTOCOL.md`：成长观察、趋势判断与风险提醒协议。
 - `LORE.md`：马十一的背景、名字由来、性格与生活设定，可随成长持续补充。
 - `diary/DIARY.md`：每日成长记录主线。
 - `diary/ACHIEVEMENTS.md`：记录重要“第一次”。
@@ -84,13 +86,14 @@ MaShiYi/
 
 ## 更新原则
 
-这个仓库遵循 `PROJECT_BIBLE.md` 中的规则：
+这个仓库遵循 `PROJECT_BIBLE.md` 与 `OBSERVATION_PROTOCOL.md` 中的规则：
 
 - 真实优先，不虚构事件；
 - 永远追加，尽量不覆盖历史；
 - 数据与故事并重；
 - 医疗观察保持客观谨慎；
 - 妈妈始终称为“妈妈”；
+- 不只是记录，也要观察成长趋势，并在需要时即时提醒；
 - 每一次更新，都是马十一成长的一页。
 
 ---
