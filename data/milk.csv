@@ -28,5 +28,5 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-07-01,5,19:30,15,unknown,unknown,unknown,"晚上19点半喂奶约15ml"
 2026-07-01,5,23:00,10,unknown,unknown,unknown,"晚上23点喂奶约10ml"
 2026-07-02,6,00:30,20,unknown,unknown,seeking_milk,"00:30叫饿，补奶约20ml"
-2026-07-02,6,later_1,4.5,unknown,unknown,sleepy,"因叫得厉害，补奶不到5ml；喝完后不叫了，开始睡觉"
-2026-07-02,6,later_2,15,unknown,unknown,unknown,"醒后又喝约15ml；无吐奶，排便正常，精神活泼"
+2026-07-02,6,01:50,4.5,unknown,unknown,sleepy,"约1点50，因叫得厉害，补奶不到5ml；喝完后不叫了，开始睡觉"
+2026-07-02,6,02:30,15,unknown,unknown,unknown,"约2点30醒后又喝约15ml；无吐奶，排便正常，精神活泼"
