@@ -4,6 +4,17 @@
 
 ---
 
+## v0.4.1 — 2026-07-01
+
+### 时间轴二次校正
+
+- 按妈妈确认，原本拆成 2026-06-26 与 2026-06-27 的内容实际都属于 2026-06-26。
+- 合并 `Day 1（2026-06-26）` 内容：310g、321g、吸手补奶、舔手、嘬毛毯、航空箱自主排尿等记录统一归入 Day 1。
+- 将后续成长记录整体前移一天：原 Day 3 内容调整为 Day 2，原 Day 4 内容调整为 Day 3，原 Day 5 内容调整为 Day 4，原 Day 6 内容调整为 Day 5。
+- 同步修正 `diary/DIARY.md`、`diary/ACHIEVEMENTS.md`、`data/milk.csv`、`data/weight.csv`、`data/health.csv`、`LORE.md` 与 `PROJECT_BIBLE.md`。
+
+---
+
 ## v0.4.0 — 2026-07-01
 
 ### 时间轴修正
@@ -53,40 +64,6 @@
 - 更新 `diary/DIARY.md`，补充 Day 5 小布偶互动记录。
 - 更新 `diary/ACHIEVEMENTS.md`，新增“第一件专属小布偶”。
 - 更新 `LORE.md`，补充小布偶从窝里的陪伴物变成专属玩具的背景。
-
----
-
-## v0.2.8 — 2026-07-01
-
-### Day 5 猫砂训练与工作台探索
-
-- 更新 `diary/DIARY.md`，补充 Day 5 猫砂训练、桌面探索、键盘鼠标占领与互动行为。
-- 更新 `diary/ACHIEVEMENTS.md`，新增“第一次猫砂训练”和“第一次霸占妈妈的工作台”。
-- 更新 `data/health.csv`，补充 Day 5 猫砂训练与桌面探索摘要。
-- 更新 `LORE.md`，补充猫砂启蒙与工作台探索背景。
-
----
-
-## v0.2.7 — 2026-07-01
-
-### Day 4 体重与 Day 5 记录补充
-
-- 更新 `data/weight.csv`，补充 Day 4 饭后体重 333g。
-- 更新 `data/milk.csv`，补充 Day 4 后续喂奶记录与 Day 5 截至晚间的喂奶记录。
-- 更新 `data/health.csv`，补充 Day 4 体重、奶量摘要，以及 Day 5 第二次自主排便。
-- 更新 `diary/DIARY.md`，完善 Day 4 成长记录，并新增 Day 5 阶段性日记。
-
----
-
-## v0.2.6 — 2026-06-30
-
-### Day 3 夜间与 Day 4 第一次便便
-
-- 更新 `data/milk.csv`，补充 Day 3 22:45 喂奶与 Day 4 刚刚喂奶记录。
-- 更新 `data/health.csv`，补充 Day 3 夜间自主排尿、在家探索、和布偶打招呼，以及 Day 4 第一次成功排便。
-- 更新 `diary/DIARY.md`，补充 Day 3 夜间记录，并新增 Day 4 第一次便便记录。
-- 更新 `diary/ACHIEVEMENTS.md`，新增“第一次和家里的布偶打招呼”和“第一次成功排便”。
-- 更新 `LORE.md`，补充家里的第一次探索与第一次便便。
 
 ---
 
