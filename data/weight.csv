@@ -1,5 +1,5 @@
 date,day,weight_g,measurement_time,notes
 2026-06-25,0,,unknown,"初估约250g，来自宠物医院印象记录，非精确称重"
 2026-06-26,1,310,after_feeding,"饭后称重，预计空腹体重略低"
-2026-06-27,2,321,after_feeding,"饭后称重"
-2026-06-29,4,333,after_feeding,"饭后称重"
+2026-06-26,1,321,after_feeding,"饭后称重"
+2026-06-28,3,333,after_feeding,"饭后称重"
