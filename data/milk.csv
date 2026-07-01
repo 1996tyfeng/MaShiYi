@@ -35,3 +35,8 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-06-30,5,15:20,20,unknown,unknown,play_breaks,"15:20喂约20ml；吃一会玩一会，分次喂完"
 2026-06-30,5,18:20,15,unknown,unknown,play_breaks,"18:20喂约15ml；吃一会玩一会"
 2026-06-30,5,22:00,15,unknown,unknown,play_breaks,"22点左右喂约15ml；吃一会玩一会"
+2026-07-01,6,11:30,20,unknown,unknown,unknown,"中午11:30喂奶约20ml"
+2026-07-01,6,15:30,20,unknown,unknown,unknown,"15:30喂奶约20ml"
+2026-07-01,6,18:00,10,unknown,unknown,seeking_milk,"晚上18点喂奶约10ml；约18:30又叫饿"
+2026-07-01,6,18:30,10,unknown,unknown,unknown,"18点半左右叫饿后补奶约10ml"
+2026-07-01,6,23:00,20,unknown,unknown,unknown,"23点喂奶约20ml"
