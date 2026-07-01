@@ -30,3 +30,8 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-06-30,5,00:30,20,unknown,unknown,seeking_milk,"00:30叫饿，补奶约20ml"
 2026-06-30,5,01:50,4.5,unknown,unknown,sleepy,"约1点50，因叫得厉害，补奶不到5ml；喝完后不叫了，开始睡觉"
 2026-06-30,5,02:30,15,unknown,unknown,unknown,"约2点30醒后又喝约15ml；无吐奶，排便正常，精神活泼"
+2026-06-30,5,04:00,10,unknown,unknown,unknown,"凌晨4点左右又喂约10ml"
+2026-06-30,5,11:30,20,unknown,unknown,play_breaks,"中午11点半喂约20ml；开始出现吃一会玩一会，一瓶奶分三次喂的情况"
+2026-06-30,5,15:20,20,unknown,unknown,play_breaks,"15:20喂约20ml；吃一会玩一会，分次喂完"
+2026-06-30,5,18:20,15,unknown,unknown,play_breaks,"18:20喂约15ml；吃一会玩一会"
+2026-06-30,5,22:00,15,unknown,unknown,play_breaks,"22点左右喂约15ml；吃一会玩一会"
