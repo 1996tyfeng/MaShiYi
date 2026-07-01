@@ -4,6 +4,17 @@
 
 ---
 
+## v0.4.0 — 2026-07-01
+
+### 时间轴修正
+
+- 将 Day 0 起始日期从 `2026-06-26` 修正为 `2026-06-25`。
+- 按妈妈提供的表格，统一 Day 与日期对应关系：Day0=2026-06-25，Day1=2026-06-26，Day2=2026-06-27，Day3=2026-06-28，Day4=2026-06-29，Day5=2026-06-30，Day6=2026-07-01。
+- 同步修正 `diary/DIARY.md`、`diary/ACHIEVEMENTS.md`、`data/milk.csv`、`data/weight.csv`、`data/health.csv`、`README.md`、`LORE.md`、`PROJECT_BIBLE.md`、`prompts/chatgpt.md` 与 `prompts/codex.md`。
+- 更新 Day 计算规则为：`Day = 记录日期 - 2026-06-25`。
+
+---
+
 ## v0.3.2 — 2026-07-02
 
 ### Day 6 斗篷事件
