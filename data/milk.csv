@@ -40,3 +40,4 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-07-01,6,18:00,10,unknown,unknown,seeking_milk,"晚上18点喂奶约10ml；约18:30又叫饿"
 2026-07-01,6,18:30,10,unknown,unknown,unknown,"18点半左右叫饿后补奶约10ml"
 2026-07-01,6,23:00,20,unknown,unknown,unknown,"23点喂奶约20ml"
+2026-07-02,7,unknown,,unknown,unknown,unknown,"Day 7 奶量记录缺失；妈妈未保留具体时间与奶量，不做估算。record_quality=missing"
