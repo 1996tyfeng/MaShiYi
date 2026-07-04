@@ -41,3 +41,8 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-07-01,6,18:30,10,unknown,unknown,unknown,"18点半左右叫饿后补奶约10ml"
 2026-07-01,6,23:00,20,unknown,unknown,unknown,"23点喂奶约20ml"
 2026-07-02,7,unknown,,unknown,unknown,unknown,"Day 7 奶量记录缺失；妈妈未保留具体时间与奶量，不做估算。record_quality=missing"
+2026-07-03,8,04:00,5,unknown,unknown,unknown,"凌晨4点喂奶约5ml"
+2026-07-03,8,15:00,15,unknown,unknown,seeking_milk,"约15点到公司后先喂15ml；此前因沟通误会从凌晨4点后一直未进食"
+2026-07-03,8,15:00_later_1,5,unknown,unknown,seeking_milk,"第一轮后又补约5ml"
+2026-07-03,8,15:00_later_2,5,unknown,unknown,relaxed,"随后再补约5ml；本轮合计约25ml"
+2026-07-03,8,first_weaning_attempt,,unknown,unknown,brief_cough_then_resumed,"第一次在猫碗里尝试羊奶泡软奶糕；主动过来舔，因嘴鼻扎得太深短暂咳嗽两下，随后继续舔食；奶量未单独统计"
