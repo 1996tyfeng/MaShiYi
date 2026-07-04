@@ -45,3 +45,4 @@ date,day,time,amount_ml,pee,poop,after_status,notes
 2026-07-02,7,15:00_later_1,5,unknown,unknown,seeking_milk,"第一轮后又补约5ml"
 2026-07-02,7,15:00_later_2,5,unknown,unknown,relaxed,"随后再补约5ml；本轮合计约25ml。当天其余奶量未完整记录，record_quality=partial"
 2026-07-03,8,first_weaning_attempt,,unknown,unknown,brief_cough_then_resumed,"第一次在猫碗里尝试羊奶泡软奶糕；主动过来舔，因嘴鼻扎得太深短暂咳嗽两下，随后继续舔食；摄入量未单独统计"
+2026-07-03,8,self_returned_to_bowl,,unknown,unknown,eating_independently,"妈妈没有引导时，小十一自己又跑回保温猫碗吃了几口；第二次进食动作已经明显更熟练，会主动低头舔食羊奶泡软奶糕；摄入量未单独统计"
