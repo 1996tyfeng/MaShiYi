@@ -1,0 +1,27 @@
+name: Append chat once 0713b
+
+on:
+  push:
+    paths:
+      - conversation/pending_append_2026-07-13_b.md
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Append transcript and clean up
+        shell: bash
+        run: |
+          printf '\n\n---\n\n' >> 'conversation/小猫喂养问题.md'
+          cat 'conversation/pending_append_2026-07-13_b.md' >> 'conversation/小猫喂养问题.md'
+          rm 'conversation/pending_append_2026-07-13_b.md'
+          rm '.github/workflows/append-chat-once-0713b.yml'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'docs(conversation): append office safety and play transcript'
+          git push
