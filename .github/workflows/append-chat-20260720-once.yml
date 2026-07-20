@@ -1,0 +1,25 @@
+name: Append chat 2026-07-16 to 2026-07-20 once
+
+on:
+  push:
+    paths:
+      - 'conversation/pending/append-2026-07-16-to-2026-07-20.md'
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Append conversation and clean up
+        run: |
+          cat conversation/pending/append-2026-07-16-to-2026-07-20.md >> conversation/小猫喂养问题.md
+          git rm conversation/pending/append-2026-07-16-to-2026-07-20.md
+          git rm .github/workflows/append-chat-20260720-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conversation/小猫喂养问题.md
+          git commit -m "docs(conversation): 同步 7 月 16 日至 7 月 20 日对话"
+          git push
