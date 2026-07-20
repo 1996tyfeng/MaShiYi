@@ -1,0 +1,36 @@
+name: Replace chat 2026-07-16 to 2026-07-20 verbatim once
+
+on:
+  push:
+    paths:
+      - 'conversation/pending/replace-2026-07-16-to-2026-07-20-verbatim.md'
+
+permissions:
+  contents: write
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace summarized block with verbatim transcript
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          target = Path('conversation/小猫喂养问题.md')
+          pending = Path('conversation/pending/replace-2026-07-16-to-2026-07-20-verbatim.md')
+          text = target.read_text(encoding='utf-8')
+          marker = '\n\n---\n\n## 2026-07-16 至 2026-07-20 对话补充\n'
+          if marker not in text:
+              raise SystemExit('target marker not found')
+          prefix = text.split(marker, 1)[0].rstrip()
+          replacement = pending.read_text(encoding='utf-8').lstrip()
+          target.write_text(prefix + '\n\n---\n\n' + replacement.rstrip() + '\n', encoding='utf-8')
+          PY
+          git rm conversation/pending/replace-2026-07-16-to-2026-07-20-verbatim.md
+          git rm .github/workflows/replace-chat-20260716-20260720-verbatim-once.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add conversation/小猫喂养问题.md
+          git commit -m "docs(conversation): 以原文重同步 7 月 16 日至 7 月 20 日对话"
+          git push
